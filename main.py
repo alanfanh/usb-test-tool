@@ -3,7 +3,7 @@
 import sys
 from PySide6 import QtCore, QtGui, QtWidgets
 from gui.gui import *
-from core.USBStabilityTest import FtpTest,SmbTest
+from common.USBStabilityTest import FtpTest,SmbTest
 from time import sleep 
 
 class RunThread(QtCore.QThread):
