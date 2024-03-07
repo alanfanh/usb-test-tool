@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 #coding=utf-8
 import sys
-from PySide6 import QtCore, QtGui, QtWidgets
+from time import sleep 
+from PySide6 import QtCore, QtWidgets
 from gui.gui import *
 from common.USBStabilityTest import FtpTest,SmbTest
-from time import sleep 
+
 
 class RunThread(QtCore.QThread):
 
