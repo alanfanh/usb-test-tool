@@ -25,13 +25,16 @@ usb-test-tool
 
 ## 环境
 
-> python3.9.10 64bit
+> python3.14
 
 ### 依赖
 
-> 可使用"pip install -r requirements.txt"一键安装所有依赖项
-
+> 可使用uv管理所有依赖项
+同步项目依赖
 ````text
-pyside6==6.2.3
-pysmb==1.2.7
+uv sync
+````
+运行项目
+````text
+uv run python main.py
 ````
